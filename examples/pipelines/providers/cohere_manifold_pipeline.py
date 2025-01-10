@@ -16,7 +16,6 @@ from typing import List, Union, Generator, Iterator
 from pydantic import BaseModel
 import requests
 
-
 class Pipeline:
     class Valves(BaseModel):
         COHERE_API_BASE_URL: str = "https://api.cohere.com/v1"
